@@ -1,0 +1,128 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+}
+
+/* En-tête */
+header {
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s; /* Effet de transition pour le changement de couleur */
+}
+
+/* Style pour les liens actifs du navbar */
+.navbar-nav .nav-link.active {
+    color: #fff; /* Couleur du texte active */
+    background-color: #218838; /* Couleur de fond pour l'élément actif */
+    border-radius: 4px; /* Arrondir les coins */
+}
+
+/* Optionnel : effet au survol */
+.navbar-nav .nav-link:hover {
+    background-color: #218838; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+}
+
+/* Style des cartes (photos et vidéos) */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; /* Hauteur automatique pour conserver le ratio */
+    object-fit: contain; /* Assure que l'image est contenue sans être coupée */
+}
+
+/* Style spécifique pour les vidéos */
+.card video {
+    width: 100%;
+    height: auto; /* Hauteur automatique pour conserver le ratio */
+}
+
+/* Pied de page */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Style pour les formulaires */
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .form-group {
+    margin-bottom: 1rem;
+}
+
+form .form-group label {
+    font-weight: bold;
+}
+
+form .form-group input, form .form-group textarea {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+    width: 100%;
+}
+
+form .form-group textarea {
+    height: 150px;
+}
+
+form .btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form .btn:hover {
+    background-color: #218838;
+}
+
+/* Style spécifique pour la page Faire un Don */
+.donation-options .card {
+    margin-bottom: 1.5rem;
+}
+
+.donation-options .card-body {
+    text-align: center;
+}
+
+.donation-options .card-title {
+    font-size: 1.25rem;
+}
+
+.donation-options .card-text {
+    font-size: 1rem;
+}
